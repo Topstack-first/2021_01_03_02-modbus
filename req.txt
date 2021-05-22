@@ -1,0 +1,10 @@
+Have Modbus RTU module, that we need to continuously read ‘value’. 
+C# makes steady 62-64 reads per second. 
+Need source code in C++ that would make the same steady 62-64 reads per second. 
+Have source code for Modbus TCP in C++ that I can provide, though it was not tested. 
+All needs to be source, no modbus.dll involved. Needs to stream consistently. 
+Console, updated once per second with last value read and number of reads per last second.
+
+zip has both master and slave. 
+I need only master to read slave. 
+I guess we do not need socket, though need to add checksum and COM settings.
